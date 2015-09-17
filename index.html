@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head lang="zh-cn">
+    <title >zhTimer魔方工具箱</title>
+    <meta http-equiv="Content-type" content="text/html;charset=UTF-8">
+    <!-- import bootstrap-->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="keywords" content="">
+    <meta name="author" content="kira">
+
+
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link  href="css/toolbox.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/animate.css">
+    <script type="text/javascript" src="js/jquery-1.11.3.min.js"></script>
+    <script type="text/javascript" src="js/json.min.js"></script>
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+    <script type="application/javascript" src="js/toolbox.js"></script>
+</head>
+<body class="homepage">
+
+<div class="site-notice"><a href="javascrpit" target="_blank">通知栏</a></div>
+<header class="site-header jumbotron">
+
+    <div class="container">
+        <div class="row">
+            <div class="col-xs-12">
+                <h1  id="animationSandbox" class="swing animated" style="display:inline" >zhTimer</h1>
+                <h2 style="display:inline">工具集</h2>
+
+                <p>这个页面列举了zhTimer为大家整理和优化的
+                    <br>魔方小工具<br>
+                </p>
+                <form class="" role="search">
+                    <div class="form-group">
+                        <input type="text" class="form-control search clearable" placeholder="这个输入框暂时只卖萌">
+                        <i class="fa fa-search"></i>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+
+</header>
+
+<div class="mostused-packages  well text-center">
+<div class="btn-group " style="width: 100%;  vertical-align:middle;">
+    <button class="btn-tools btn btn-danger gray " onclick="$('.tools-panel').attr('src','http://tieba.baidu.com/f?kw=%C4%A7%B7%BD')">百度魔方吧</button>
+    <button class="btn-tools btn btn-primary gray" style="background-color: grey; ">拼图生成器</button>
+    <button class="btn-tools btn btn-warning gray" onclick="$('.tools-panel').attr('src','scrambler.html')">打乱生成器</button>
+    <button class="btn-tools btn btn-info gray" onclick="$('.tools-panel').attr('src','http://www.zhtimer.cn/tools/alg')">alg解法书写工具</button>
+</div>
+</div>
+
+
+<iframe class="tools-panel" width="100%" height="90%" scrolling="yes"></iframe>
+
+
+
+
+
+</body>
+</html>

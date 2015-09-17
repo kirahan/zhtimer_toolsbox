@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head lang="zh-cn">
+    <title >zhTimer魔方工具箱</title>
+    <meta http-equiv="Content-type" content="text/html; charset=UTF-8">
+    <!-- import bootstrap-->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="keywords" content="">
+    <meta name="author" content="kira">
+
+
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link  href="css/scrambler.css" rel="stylesheet">
+    <script type="text/javascript" src="js/jquery-1.11.3.min.js"></script>
+    <script type="text/javascript" src="js/json.min.js"></script>
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+    <script type="application/javascript" src="js/toolbox.js"></script>
+</head>
+<body>
+<div class="scramble_section">
+<div class="scramble_button" style="background-color: #5bc0de">
+    <nobr>选择魔方种类 </nobr>
+    <img class="scramble_button_item button1" data-item="二阶速拧" data-puzzle="222">
+    <img class="scramble_button_item  button2 active" data-item="三阶速拧" data-puzzle="333">
+    <img class="scramble_button_item button3" data-item="四阶速拧" data-puzzle="444">
+    <img class="scramble_button_item button4 " data-item="五阶速拧" data-puzzle="555">
+    <img class="scramble_button_item button5" data-item="六阶速拧" data-puzzle="666">
+    <img class="scramble_button_item button10" data-item="七阶速拧" data-puzzle="777">
+    <img class="scramble_button_item button7" data-item="三阶最少步" data-puzzle="333">
+    <img class="scramble_button_item button8" data-item="三阶脚拧" data-puzzle="333">
+    <img class="scramble_button_item button9" data-item="三阶单手" data-puzzle="333">
+    <img class="scramble_button_item button11" data-item="三阶盲拧" data-puzzle="333ni">
+    <img class="scramble_button_item button12" data-item="四阶盲拧" data-puzzle="444ni">
+    <img class="scramble_button_item button13" data-item="五阶盲拧" data-puzzle="555ni">
+    <img class="scramble_button_item button17" data-item="五魔方" data-puzzle="minx">
+    <img class="scramble_button_item button16" data-item="金字塔" data-puzzle="pyram">
+    <img class="scramble_button_item button15" data-item="Square-1" data-puzzle="sq1">
+    <img class="scramble_button_item button18" data-item="魔表" data-puzzle="clock">
+    <img class="scramble_button_item button14" data-item="斜转魔方" data-puzzle="skewb">
+    <b><nobr id="scramble_puzzle_name">三阶速拧</nobr></b>
+
+    <nobr >设置打乱数量(不超过50)</nobr>
+        <input type="number" class="scramble_amount" value="5">
+    <nobr > <input type="checkbox" class="show_scramble_image"> 显示打乱状态</nobr>
+    <nobr >设置字号</nobr>
+    <input style="margin-right: 30px" type="text" class="scramble_font_size" value="Default">
+
+    <button class="btn btn-sm btn-danger" id="creat_scramble_button">生成打乱</button>
+
+</div>
+</div>
+
+<div class="scramble_result_panel" style="width: 100%">
+
+</div>
+
+<script>
+
+
+</script>
+<!--<div class="alert alert-warning alert-dismissible notice-onthetop" role="alert">-->
+    <!--<button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">&times;</span></button>-->
+    <!--<strong>Warning!</strong> Better check yourself, you're not looking too good.-->
+<!--</div>-->
+
+
+</body>
+</html>
