@@ -27,7 +27,7 @@ $(function(){
                         {
 
                             var text =index.toString() + '. '+ scramble_data[index-1]
-                            var scramble_image_api = 'http://www.zhtimer.cn:2014/view/' + puzzle_type + '.svg?scramble='+ encodeURI(scramble_data[index-1])
+                            var scramble_image_api = 'http://www.zhtimer.cn:2014/view/' + puzzle_type + '.svg?scramble='+ encodeURIComponent(scramble_data[index-1])
                             var size
                             if(!isNaN($('.scramble_font_size').val()))
                                 size = parseInt($('.scramble_font_size').val())
